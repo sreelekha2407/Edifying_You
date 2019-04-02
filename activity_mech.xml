@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Mech" >
+    <ScrollView 
+    android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="1000dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+    
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="14dp"
+        android:text="Department of Mechanical Engineering"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="64dp"
+        android:text="VISION:
+
+ To emerge as a renowned center in Mechanical Engineering by following the best practices in teaching, learning and research"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_centerVertical="true"
+        android:text="MISSION:
+
+ To provide good academic environment for pursuing high quality undergraduate, Post graduate and Doctoral programmes in mechanical engineering that will prepare our graduates for outstanding professional careers.
+To provide service to practicing engineers, industry, government, educational and technical societies through effective engagement with these groups and by providing professional knowledge.
+To ensure that our students are well trained in interpersonal skills, team work, professional ethics, practical industrial training and participate in professional society activities.
+Conduct and proliferate high quality research work to students for lifetime of learning."
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+      </LinearLayout>
+
+</ScrollView>
+</RelativeLayout>

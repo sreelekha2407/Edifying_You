@@ -1,0 +1,127 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Stureg" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="1000dp" >
+        <LinearLayout
+           android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+             <EditText
+                android:id="@+id/editText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Stu_Ids" />
+
+             <EditText
+                 android:id="@+id/editText2"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:ems="10"
+                 android:hint="Student Name"
+                 android:inputType="textPersonName" />
+             
+             <EditText
+                 android:id="@+id/editText3"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:ems="10"
+                 android:inputType="textPassword"
+                 android:hint="Password" />
+
+             <EditText
+                 android:id="@+id/editText4"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:ems="10"
+                 android:inputType="textEmailAddress"
+                 android:hint="EmailId" />
+
+             <EditText
+                 android:id="@+id/editText5"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:ems="10"
+                 android:inputType="phone"
+                 android:hint="Phoneno" />
+
+             <EditText
+                 android:id="@+id/editText6"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:ems="10"
+                 android:inputType="textPersonName"
+                 android:hint="Father Name" />
+
+             <EditText
+                 android:id="@+id/editText7"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:ems="10"
+                 android:inputType="phone"
+                 android:hint="phone No" />
+
+             <EditText
+                 android:id="@+id/editText8"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:ems="10"
+                 android:inputType="textPersonName"
+                 android:hint="Mother Name" />
+
+             <EditText
+                 android:id="@+id/editText9"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:ems="10"
+                 android:inputType="phone"
+                 android:hint="Phone No" />
+
+
+             <EditText
+                 android:id="@+id/editText11"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:ems="10"
+                 android:hint="SSC Marks" />
+
+            
+
+             <EditText
+                 android:id="@+id/editText12"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:ems="10"
+                 android:hint="Inter Marks" />
+              <EditText
+                android:id="@+id/editText13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="EAMCET Rank" >
+
+                <requestFocus />
+            </EditText>
+
+             <Button
+                 android:id="@+id/button1"
+                 style="?android:attr/buttonStyleSmall"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Submit" />
+            
+        </LinearLayout>
+    </ScrollView>
+    
+</RelativeLayout>

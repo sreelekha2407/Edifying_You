@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Cse" >
+
+    
+<ScrollView 
+    android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="1000dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Computer Science and Engineering Department"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+           
+
+
+<TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VISION:
+                
+   
+  To emerge as a leading department in Technical Education and Research in Computer Science and Engineering with focus to produce professionally competent and socially sensitive engineers capable of working in global environment."
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+           
+
+<TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MISSION:
+                
+                
+
+To prepare Computer Science and Engineering graduates to be a life long learner with competence in basic science &amp; engineering and professional core,  multidisciplinary areas,  with continuous update  of the syllabus,  so that they can succeed in industry as an individual and as a team or to pursue higher studies or to become an entrepreneur. 
+To enable the graduates to use modern tools, design and create novelty based products required for the society and communicate effectively with professional ethics. 
+To continuously engage in research and projects development with financial management to promote scientific temper in the graduates and attain sustainability."
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </LinearLayout>
+
+</ScrollView>
+</RelativeLayout>
